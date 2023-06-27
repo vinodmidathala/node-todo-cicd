@@ -1,0 +1,6 @@
+version: '1.0'
+services:
+  web:
+    image: "nodejsapp:latest" 
+    ports: 
+    -  "8100:8100"
